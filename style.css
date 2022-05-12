@@ -1,0 +1,85 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.header{
+    background-color: #16345C;
+    height: 30px;
+    width: 1920px;
+    padding: 0px;
+    margin: 0px;  
+
+}
+
+.footer{
+    background-color: #43546D;
+    height: 50px;
+    width: 1920px;
+    left: 0;
+    bottom: 0;
+    position: fixed; bottom: 0;
+
+}
+
+
+
+.table{
+     margin: auto;
+}
+
+
+
+#info{
+    height: 350px;
+    width: 530px;  
+    filter:drop-shadow(4px 5px 4px gray);
+     
+}
+
+#jicheon{
+    padding-left: 20px;
+    height: 350px;
+    width: 530px; 
+    filter:drop-shadow(4px 5px 4px gray);
+}
+
+#geon{
+    padding-left: 20px;
+    height: 350px;
+    width: 530px;
+    padding-right: 50px;
+    filter:drop-shadow(4px 5px 4px gray);
+}
+
+.div{
+  box-shadow: 0 0 4px black;
+  text-align: center;
+  margin: auto;
+  border: 1px solid rgb(201, 198, 198);
+  width: 800px;
+  height: 60px;
+}
+
+
+#td1{
+    border: 1px solid rgb(201, 198, 198);
+}
+
+.div2{
+    box-shadow: 0 0 4px black;
+    margin: auto;
+    border: 1px solid rgb(201, 198, 198);
+    width: 1200px;
+    height: 200px;
+  }
+#line1{
+    height: 50px;
+}
+
+#line2{
+    width: 750;
+    height: 2px;
+    background-color: grey;
+}
