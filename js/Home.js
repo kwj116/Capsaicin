@@ -22,4 +22,4 @@ InFo.addEventListener('mouseleave',MouseLeave);
 jicheon.addEventListener('mouseenter',onMouse);
 jicheon.addEventListener('mouseleave',MouseLeave);
 geon.addEventListener('mouseenter',onMouse);
-geon.addEventListener('mouseleave',MouseLeave);s
+geon.addEventListener('mouseleave',MouseLeave);
