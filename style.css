@@ -24,11 +24,12 @@ html,body{
 
 
 .table{
+   
     background-color: #F1F1F1;
     padding-left: 30px;
     height: 350px;
     margin: auto;
-    width: 1500px;
+    width: 1920px;
     
 }
 
@@ -40,15 +41,16 @@ html,body{
 }
 
 .scale:hover{
-    transform: scale(1.2);
+    transform: scale(1.05);
 }
 #info{
-    padding-left: 30px;
-    height: 300px;
-    width: 400px;
+    padding-left: 50px;
+    height: 330px;
+    width: 500px;
     object-fit: cover;
     filter:drop-shadow(4px 5px 4px gray);
     transform:scale(1.0);
+    
   
 }
 
@@ -56,14 +58,14 @@ html,body{
   
     object-fit: cover;
     padding-left: 30px;
-    height: 300px;
-    width: 400px; 
+    height: 330px;
+    width: 500px; 
     filter:drop-shadow(4px 5px 4px gray);
 }
 
 #geon{
-    height: 300px;
-    width: 400px;
+    height: 330px;
+    width: 500px;
     padding-left: 30px;
     filter:drop-shadow(4px 5px 4px gray);
 }
