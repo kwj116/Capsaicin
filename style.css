@@ -23,33 +23,48 @@ html,body{
 }
 
 
-
-
 .table{
+    background-color: #F1F1F1;
+    padding-left: 30px;
+    height: 350px;
+    margin: auto;
+    width: 1500px;
     
-     margin: auto;
 }
 
+.img{width: 280px;  overflow: hidden;}
 
+.scale{
+    transform: scale(1);
+    transition: all 0.3s ease-in-out;
+}
+
+.scale:hover{
+    transform: scale(1.2);
+}
 #info{
+    padding-left: 30px;
     height: 300px;
     width: 400px;
+    object-fit: cover;
     filter:drop-shadow(4px 5px 4px gray);
+    transform:scale(1.0);
   
 }
 
 #jicheon{
-    padding-left: 20px;
+  
+    object-fit: cover;
+    padding-left: 30px;
     height: 300px;
     width: 400px; 
     filter:drop-shadow(4px 5px 4px gray);
 }
 
 #geon{
-    padding-left: 20px;
     height: 300px;
     width: 400px;
-    padding-right: 50px;
+    padding-left: 30px;
     filter:drop-shadow(4px 5px 4px gray);
 }
 
