@@ -5,7 +5,7 @@ html,body{
 
 .header{
     background-color: #16345C;
-    height: 30px;
+    height: 40px;
     width: 1920px;
     padding: 0px;
     margin: 0px;  
@@ -24,30 +24,31 @@ html,body{
 
 
 
+
 .table{
+    
      margin: auto;
 }
 
 
-
 #info{
-    height: 350px;
-    width: 530px;  
+    height: 300px;
+    width: 400px;
     filter:drop-shadow(4px 5px 4px gray);
-     
+  
 }
 
 #jicheon{
     padding-left: 20px;
-    height: 350px;
-    width: 530px; 
+    height: 300px;
+    width: 400px; 
     filter:drop-shadow(4px 5px 4px gray);
 }
 
 #geon{
     padding-left: 20px;
-    height: 350px;
-    width: 530px;
+    height: 300px;
+    width: 400px;
     padding-right: 50px;
     filter:drop-shadow(4px 5px 4px gray);
 }
@@ -62,9 +63,7 @@ html,body{
 }
 
 
-#td1{
-    border: 1px solid rgb(201, 198, 198);
-}
+
 
 .div2{
     box-shadow: 0 0 4px black;

@@ -2,17 +2,19 @@ const InFo = document.querySelector('#info');
 const jicheon = document.querySelector('#jicheon');
 const geon = document.querySelector('#geon');
 
-console.log(InFo)
 
 function onMouse(event){
-    event.target.style.width = "560px";
-    event.target.style.height = "380px";
+    event.target.style = 'opacity: 0.8;'
+    event.target.style.width = "450px";
+    event.target.style.height = "350px";
     event.target.style.transition = 'all 0.5s';
+   
 }
 
 function MouseLeave(event){
-    event.target.style.width = "530px";
-    event.target.style.height = "350px";
+    event.target.style = 'opacity: none';
+    event.target.style.width = "400px";
+    event.target.style.height = "300px";
     event.target.style.transition = 'all 0.5s';
 }
 
